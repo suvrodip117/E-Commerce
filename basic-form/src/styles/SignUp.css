@@ -1,0 +1,25 @@
+#loginSignUp-root-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+#loginSignUp-container{
+    box-shadow: 5px 5px 15px #bccdd4;
+    background: rgba(240, 255, 254, 1.0);
+    border-radius: 5px;
+}
+#header-options-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#header-options-container a{
+    text-decoration: none;
+}
+#header-options-container h1{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #277d74;
+}

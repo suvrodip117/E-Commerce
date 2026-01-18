@@ -1,0 +1,46 @@
+.footer-root-cont {
+  background-color: #120d09;
+  display: flex;
+  justify-content: space-between;
+  color: #ded6ca;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  min-height: 35vh;
+}
+.footer-root-cont h1 {
+  font-size: 18px;
+  font-variant: small-caps;
+  color: #ae6435;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #ded6ca;
+}
+.footer-list a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.footer-root-cont ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-root-cont li {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+#contact_us_list_item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}

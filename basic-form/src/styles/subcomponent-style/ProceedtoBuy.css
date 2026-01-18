@@ -1,0 +1,59 @@
+.proceed-to-buy-cont {
+  box-shadow: 1px 1px 15px #bccdd4;
+  border-radius: 10px;
+  padding: 20px;
+  height: 320px;
+  background-color: #f2fffe;
+  text-align: left;
+}
+
+#proceedtobuy_form {
+  display: flex;
+  margin: auto;
+  float: left;
+  flex-direction: column;
+}
+
+#deliveryAddress {
+  height: 60px;
+  width: 190px;
+  resize: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buy-ele {
+  margin-bottom: 20px;
+}
+
+.btn-add-to-cart {
+  background-color: #20a2b3;
+  color: #d6d6d6;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  border: 0px;
+  color: #ededed;
+  font-size: 16px;
+}
+.btn-add-to-cart:hover {
+  filter: brightness(85%);
+  transition: 0.3s;
+}
+
+.submitBtn {
+  border: 0px;
+  color: #ededed;
+  font-size: 16px;
+  margin-top: 8px;
+  height: 28px;
+}
+
+.bold-text {
+  font-weight: bold;
+}

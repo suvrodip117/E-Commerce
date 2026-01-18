@@ -1,0 +1,27 @@
+#main_img_left_pane {
+  width: 400px;
+  height: 400px;
+}
+
+#img_list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.gamedtl_list_img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.leftpanel-img-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftpanel-img-lists:hover {
+  border: 2px solid #06c0c7;
+  border-radius: 3px;
+  box-shadow: 1px 1px 13px #4287f5;
+}

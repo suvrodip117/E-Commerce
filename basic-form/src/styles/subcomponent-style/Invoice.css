@@ -1,0 +1,60 @@
+#invoice_master_cont {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+}
+#invoice_root_cont {
+  padding: 50px;
+  
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+#invoice_header_cont {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+#invoice_header_cont h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+
+#invoice_top_cont {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+#invoice_total_amount {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+#invoice_footer_cont {
+  padding-top: 0px;
+}
+.invoice-right-align {
+  float: right;
+}
+#invoice_footer_sign {
+  font-size: 15px;
+  font-family: cursive;
+}
+
+#invoice_top_left_cont h2 {
+  font-size: 15px;
+}
+
+#gamefreak_logo{
+  width: 150px;
+  height: 150px;
+}
+
+.btnDownloadPDF{
+  background-color: #3f73eb;
+  border-radius: 1px;
+  border: 1px solid black;
+}

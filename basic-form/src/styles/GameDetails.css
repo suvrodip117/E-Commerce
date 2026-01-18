@@ -1,0 +1,8 @@
+.details-cont{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}

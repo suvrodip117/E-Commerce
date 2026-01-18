@@ -1,0 +1,12 @@
+.cart-dtls-cont{
+    margin-top: 50px;
+}
+.proceed-to-payment-cont{
+    text-align: right;
+    height: 100px;
+}
+.btn-proceed-to-payment{
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-right: 20px;
+}

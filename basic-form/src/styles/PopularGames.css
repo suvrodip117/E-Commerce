@@ -1,0 +1,13 @@
+.popular-games-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.popular-games-cont h1{
+    color: #10afb3 ;
+}
+.popular-game{
+    margin-top: 20px;
+    display: flex;
+}

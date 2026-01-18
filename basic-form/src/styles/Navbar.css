@@ -1,0 +1,91 @@
+/*------------------nav logo------------------*/
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #085759;
+}
+
+#top-nav h1 {
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 38px;
+  color: #ded6ca;
+}
+#nav-logo-container a {
+  text-decoration: none;
+}
+
+/*---------------nav right options-------------*/
+#nav-options-container ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  gap: 15px;
+}
+
+#nav-options-container li {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  margin-top: 15px;
+  
+}
+#nav-options-container li:hover {
+  background-color: rgba(190, 202, 212, 0.3);
+  border-radius: 4px;
+  transition: 0.3s ease-in;
+}
+#nav-options-container a {
+  text-decoration: none;
+  color: #a3d0d1;
+}
+
+/*------------------nav middle search bar-----------*/
+#nav-search-container {
+  margin-top: 20px;
+  flex: 1px;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#nav-search-container input {
+  height: 25px;
+  flex: 1;
+  border: 1px solid black;
+  border-right: 0px;
+  background-color: #ebebeb;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 0.5px;
+}
+#nav-search-container input::placeholder {
+  text-align: center;
+}
+
+#nav-search-container button {
+  border-left: 0px;
+  color: black;
+  background-color: #ebebeb;
+  height: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-width: 1px;
+  margin-top: 1px;
+}
+
+/*---------------username css---------------*/
+#usernameLink{
+  padding-left: 20px;
+}
+#usernameLink img {
+  width: 18px;
+  height: 23px;
+  padding-right: 10px;
+  position: absolute;
+  top: 10px;
+  right: 325px;
+}
+

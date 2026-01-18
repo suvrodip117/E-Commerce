@@ -1,0 +1,56 @@
+.list-contact-cont {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  left: 180px;
+  top: 50px;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 8px;
+}
+.square::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  left: -2.2rem;
+  width: 70px;
+  height: 70px;
+  background-color: #120d09; /*120d09*/
+  transform: rotate(45deg);
+  clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 100% 100%, 50% 50%, 50% 50%);
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.list-contact {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#list_contact_1 {
+  margin-right: 20px;
+}
+
+#list_contact_2 {
+  margin-left: 20px; /* Space between lists */
+}
+
+#contactHr {
+  height: 120px;
+  width: 1px; /* Adjust width as needed */
+  background-color: white; /* Line color */
+}
+
+@keyframes opacityTransition {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.contact-menu-root-cont {
+  animation: opacityTransition 0.2s ease-in;
+}
